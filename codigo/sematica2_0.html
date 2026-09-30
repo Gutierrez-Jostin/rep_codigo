@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Jostin Gutierrez</title>
+        <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        /* Estilo para controlar el tamaño fijo del logotipo pequeño */
+        .logo-pequeno {
+            width: 50px;
+            /* Ajusta el tamaño que desees */
+            height: auto;
+            display: block;
+        }
+
+        /* Estilo para que la imagen de la cabecera sea responsiva y no se desborde */
+
+        .logo-cabecera {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            /* Espacio entre la imagen y el título */
+        }
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: black;
+            background-color: brown;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: sans-serif;
+            transition: background-color 0.3s;
+        }
+
+         .boton-nav:hover {
+            background-color: blue;
+            color: rgb(255, 255, 255);
+        }
+
+        .boton-nav.activo {
+            background-color: cadetblue;
+            color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        aside {
+            width: 25%;
+
+            background-color: #ff0000;
+            padding: 15px;
+        }
+
+        section {
+            width: 75%;
+            background-color: #001aff;
+            padding: 15px;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <h1 style="margin: 0;">Ejercicio web</h1>
+                <nav class="barra-navegacion">
+                   <a href="sematica.html" class="boton-nav ">Inicio</a>
+                   <a href="sematica2_0.html" class="boton-nav activo">v2</a>
+                   <a href="sematica3_0.html" class="boton-nav ">v3</a>
+                </nav>
+            </div>
+            <img src="img/images.jpg" alt="Logo de mi sitio web" class="log-cabecera" width="130">
+        </header>
+
+        <main>
+            <aside>
+                <h2>barra lateral</h2>
+                <p>Publicidad</p>
+            </aside>
+
+            
+            <section>
+                <article>
+                    <h3>Articulo principal</h3>
+                    <p>Contenido</p>
+                </article>
+            </section>
+        </main>
+
+        <footer> <p>Pie de pagina</p> 
+       </footer>
+    </body>
+</html>

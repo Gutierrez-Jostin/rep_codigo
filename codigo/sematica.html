@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Jostin Gutierrez</title>
+        <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ff00ff;
+            padding: 10px 20px;
+        }
+
+        body {
+            background-color: #ff00ff;
+        }
+        /* Estilo para controlar el tamaño fijo del logotipo pequeño */
+        .logo-pequeno {
+            width: 50px;
+            /* Ajusta el tamaño que desees */
+            height: auto;
+            display: block;
+        }
+
+        /* Estilo para que la imagen de la cabecera sea responsiva y no se desborde */
+
+        .logo-cabecera {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            /* Espacio entre la imagen y el título */
+        }
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: sans-serif;
+            transition: background-color 0.3s;
+        }
+
+        .boton-nav:hover {
+            background-color: rgb(212, 0, 255);
+            color: rgb(255, 255, 255);
+        }
+
+        .boton-nav.activo {
+            background-color: #ffffff;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+        }
+
+        aside {
+            width: 25%;
+            color:#ffffff;
+            background-color: #000000;
+            padding: 15px;
+        }
+
+        section {
+            width: 75%;
+            background-color: #000000;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        img {
+            border-color: #ff00ff;
+        }
+
+        table {
+            margin: 0 auto; width: 50%;
+            border-color: #ff00ff;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <h1 style="margin: 0;">Ejercicio web</h1>
+                <nav class="barra-navegacion">
+                    <a href="semantica.html" class="boton-nav activo">Inicio</a>
+                    <a href="sematica2_0.html" class="boton-nav ">v2</a>
+                </nav>
+            </div>
+            <img src="img/images.jpg" alt="Logo de mi sitio web" class="log-cabecera" width="130">
+        </header>
+
+        <main>
+            <aside>
+                <h2>Negocio de mi noviecita</h2>
+                
+                <p>Venta de ropa deportiva para mujeres en Tijuana
+                   <p>Puntos de entrega:</p>
+                   <p>Cbtis116</p>
+                   <p>Cetis 58</p>
+                   <p>Ley Casa Blanca </p>
+                   <p>Para mas informacion:</p>
+                   <a href="https://www.instagram.com/cazportt?stkn=MTh2Ymo0bzEydzdiMg%3D%3D&utm_source=qr" target="_blank" class="boton-laterral">
+                    <img border="1" src="img/N-D-Novia.png" alt="Negocio" class="logo-cabecera" width="200">
+                   </a>
+                </p>
+            </aside>
+
+            
+            <section>
+                <article>
+                    <h3>Apoyo a mi noviecita</h3>
+                    <p>Aqui promocionare el negocio de mi novia, es un emprendimiendo de venta de ropa deportiva
+                        aqui solo solo prondre la de su venta de ropa, tiene otro que es un bazar, donde vende 
+                        accesorios como pulceras, collares, aretes entre otras cosas, en mis paginas web estare 
+                        promocionando su negocio, sus redes y asi podran comprar lo que les interese
+                    </p>
+                    <h2>Horarios</h2>
+                    <table border="1" cellpadding="8">
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario</th>
+                            <th>Entregas</th>
+                        </tr>
+                        <tr>
+                            <td>Domingo a Viernes</td>
+                            <td>3pm - 6pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados</td>
+                            <td>10am - 12pm</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+        </main>
+
+        <footer> <p>Pie de pagina</p> 
+       </footer>
+    </body>
+</html>
