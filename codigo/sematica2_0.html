@@ -8,10 +8,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #ffffff;
+            background-color: #ff00ff;
             padding: 10px 20px;
         }
 
+        body {
+            background-color: #ff00ff;
+        }
         /* Estilo para controlar el tamaño fijo del logotipo pequeño */
         .logo-pequeno {
             width: 50px;
@@ -38,8 +41,8 @@
 
         .boton-nav {
             text-decoration: none;
-            color: black;
-            background-color: brown;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
             padding: 6px 12px;
             border-radius: 4px;
             font-size: 14px;
@@ -47,34 +50,44 @@
             transition: background-color 0.3s;
         }
 
-         .boton-nav:hover {
-            background-color: blue;
+        .boton-nav:hover {
+            background-color: rgb(212, 0, 255);
             color: rgb(255, 255, 255);
         }
 
         .boton-nav.activo {
-            background-color: cadetblue;
-            color: #f8f9fa;
+            background-color: #ffffff;
+            color: #000000;
             font-weight: bold;
         }
 
         main {
             display: flex;
             gap: 20px;
-
         }
 
         aside {
             width: 25%;
-
-            background-color: #ff0000;
+            color:#ffffff;
+            background-color: #000000;
             padding: 15px;
         }
 
         section {
             width: 75%;
-            background-color: #001aff;
+            background-color: #000000;
             padding: 15px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        img {
+            border-color: #ff00ff;
+        }
+
+        table {
+            margin: 0 auto; width: 50%;
+            border-color: #ff00ff;
         }
         </style>
     </head>
@@ -82,11 +95,10 @@
     <body>
         <header>
             <div>
-                <h1 style="margin: 0;">Ejercicio web</h1>
+                <h1 style="margin: 0;">Historia de mi relacion</h1>
                 <nav class="barra-navegacion">
-                   <a href="sematica.html" class="boton-nav ">Inicio</a>
-                   <a href="sematica2_0.html" class="boton-nav activo">v2</a>
-                   <a href="sematica3_0.html" class="boton-nav ">v3</a>
+                    <a href="sematica.html" class="boton-nav ">Inicio</a>
+                    <a href="sematica2_0.html" class="boton-nav activo">Mi relacion</a>
                 </nav>
             </div>
             <img src="img/images.jpg" alt="Logo de mi sitio web" class="log-cabecera" width="130">
@@ -94,15 +106,33 @@
 
         <main>
             <aside>
-                <h2>barra lateral</h2>
-                <p>Publicidad</p>
+                <h2>Negocio de mi noviecita</h2>
+                
+                <p>Venta de ropa deportiva para mujeres en Tijuana
+                   <p>Puntos de entrega:</p>
+                   <p>Cbtis116</p>
+                   <p>Cetis 58</p>
+                   <p>Ley Casa Blanca </p>
+                   <p>Para mas informacion:</p>
+                   <a href="https://www.instagram.com/cazportt?stkn=MTh2Ymo0bzEydzdiMg%3D%3D&utm_source=qr" target="_blank" class="boton-laterral">
+                    <img border="1" src="img/N-D-Novia.png" alt="Negocio" class="logo-cabecera" width="200">
+                   </a>
+                </p>
             </aside>
 
             
             <section>
                 <article>
-                    <h3>Articulo principal</h3>
-                    <p>Contenido</p>
+                    <h3>Nuestra historia</h3>
+                    <p>Todo empezo cuando de un de repente, ella y yo siendo amigos, nos empezamos ah acercar mas, a tener mas contacto,
+                        nos hicimos mas apegados, y poco a poco surgio un sentimiento mas que de ser amigos, un dia antes de fin de semana, 
+                        eramos amigos, y el dia lunes regresando a la escuela, despues de medio dia, ya eramos novios, y poco a poco fue
+                        surgiendo una historia de amor, hoy en dia llevamos 1 año, 4 meses y 17 dias de relacion, y vamos por unos infinitos
+                        dias mas jsjsjs, emos pasado muchas aventurs juntos y planeamos pasar muchas mas juntos, y aun que no todo sea de 
+                        colores, siempre nos tendremos uno al otro y lucharemos por lograr nuestras metas y nuestros sueños, y todo lo que
+                        nos prometimos, estoy feliz de aver conocido al amor de mi vida tan jove, y aun que el estar joven haga que la gente
+                        diga que no puedo decir que es el amor de mi vida, yo se lo que siento y aseguro y afirmo que ella es el amor de mi vida
+                    </p>
                 </article>
             </section>
         </main>
